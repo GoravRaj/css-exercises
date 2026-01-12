@@ -1,6 +1,22 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
+
+.info-container {
+  padding: 0;
+  margin-top: 32px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-container li {
+  max-width: 200px;
+}
+
+
 
 img {
   width: 100px;
